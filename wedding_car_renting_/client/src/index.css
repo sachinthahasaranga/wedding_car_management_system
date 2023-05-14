@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.bs1 {
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: bold;
+  color: darkslategray;
+}
+
+.header {
+  padding: 10px;
+
+}
+
+.header .ant-btn {
+  box-shadow: none !important;
+  background-color: white !important;
+  color: red !important;
+  border: 1px solid red !important;
+  padding: 5px 15px !important;
+  outline: none !important;
+}
+.footer{
+  background-color:darkslategray ;
+  color: white;
+  height: 200px;
+}
+
+.content {
+  min-height: 90vh;
+
+}
+
+.btn1 {
+  box-shadow: none !important;
+  background-color: white !important;
+  color: red !important;
+  border: 1px solid red !important;
+  padding: 5px 15px !important;
+  outline: none !important;
+}
+
+.carimg {
+  height: 180px;
+  width: 270px;
+  border-radius: 5px;
+  transform: translateY(-50px);
+}
+
+p {
+  margin: 5px !important;
+
+  padding: 0;
+}
+
+.spinner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 9999;
+}
+
+.car {
+  border-radius: 5px;
+  margin-top: 100px;
+  height: 160px;
+  transition: 0.3s;
+}
+
+.car:hover {
+  height: 220px;
+}
+
+.car-content {
+  transform: translateY(-40px);
+  opacity: 0;
+  transition: 0.4s;
+}
+
+.car:hover>.car-content {
+  opacity: 1;
+  transform: translateY();
+}
+
+.login {
+  background-color: black;
+  padding-top: 50px;
+  min-height: 100vh;
+}
+
+.login label,
+.login h1 {
+  color: white !important;
+  opacity: 0.6;
+}
+
+.login-form {
+  background-color: #1F1F1F;
+}
+
+.login-form input {
+  background-color: #333333 !important;
+  border: none;
+  color: white;
+  opacity: 0.5;
+}
+
+.login-logo {
+  position: absolute !important;
+  left: 0;
+  right: 0;
+  top: 50%;
+  bottom: 50%;
+  transform: translateY(-50%, -50%);
+  font-size: 45px;
+  opacity: 0.5 !important;
+
+
+}
+
+.loginimg {
+  height: 600px;
+
+}
+
+.login a {
+  color: white !important;
+  opacity: 0.5;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.carimg2 {
+  height: 400px !important;
+  border-radius: 10px;
+  width: auto;
+}
+
+svg {
+  height: 20px !important;
+  width: 20px !important;
+}
