@@ -52,6 +52,8 @@ function DefaultLayout(props) {
       ),
     },
   ];
+
+
   return (
     <div
       style={{
@@ -78,10 +80,11 @@ function DefaultLayout(props) {
                     }}
                   >
                     <img
-                      src="https://res.cloudinary.com/desnqqj6a/image/upload/v1683886702/Daco_4348109_rszw3f.png"
+                      //src="https://res.cloudinary.com/desnqqj6a/image/upload/v1683886702/Daco_4348109_rszw3f.png"
+                      src="https://res.cloudinary.com/dljyf8xev/image/upload/v1684145794/car_images/LK_jdvkpp.png"
                       alt="logo"
                       style={{
-                        width: "60px",
+                        width: "100px",
                         height: "100%",
                         marginRight: "10px",
                       }}

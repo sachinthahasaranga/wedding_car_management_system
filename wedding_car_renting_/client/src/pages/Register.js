@@ -36,7 +36,7 @@ function Register() {
 
       <Row gutter={16} className="d-flex align-items-center">
         <Col lg={16} style={{ position: "relative" }}>
-          <h1 className="login-logo">Wedding Car Renting</h1>
+          
           <img
             data-aos="slide-right"
             data-aos-duration="1500"

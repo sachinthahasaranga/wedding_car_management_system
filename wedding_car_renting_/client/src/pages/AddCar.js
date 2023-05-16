@@ -93,12 +93,22 @@ function AddCar() {
               </Form.Item>
 
               <Form.Item
-                name="rentPerHour"
-                label="Rent Per Hour (LKR)"
-                rules={[{ required: true }]}
-              >
-                <Input type="number" />
-              </Form.Item>
+  name="rentPerHour"
+  label="Rent Per Hour (LKR)"
+  rules={[
+    {
+      required: true,
+      validator: (_, value) => {
+        if (value >= 1000) {
+          return Promise.resolve();
+        }
+        return Promise.reject('Rent per hour must be at least 1000.');
+      },
+    },
+  ]}
+>
+  <Input type="number" />
+</Form.Item>
               <div
                 style={{
                   display: "flex",

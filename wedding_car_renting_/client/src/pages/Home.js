@@ -73,7 +73,7 @@ function Home() {
     setTotalcars(selectedCars);
   }
 
-  //
+  //catergory sort
   const handleChange = (value) => {
     if (value == "All") {
       setTotalcars(cars);
@@ -111,16 +111,19 @@ function Home() {
     }
   };
 
+  //get search value
   const onSearch = async (value) => {
     var searchKey = value.target.value;
     setTotalcars(cars);
     filterData(totalCars, searchKey.toLowerCase());
+    
   };
 
   //Car search function
   const filterData = (totalCars, searchKey) => {
     const result = cars.filter((car) =>
       car.name.toLowerCase().includes(searchKey)
+      
     );
     setTotalcars(result);
   };
