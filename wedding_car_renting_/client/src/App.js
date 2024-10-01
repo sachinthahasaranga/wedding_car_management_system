@@ -21,7 +21,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
         {/* Admin Routes */}
-        {user && user.role == "Admin" ? (
+        {user && user.role === "Admin" ? (
           <Routes>
             <Route path="/" element={<Navigate to="/admin" />} />
             <Route path="/admin" element={<AdminHome />} />
